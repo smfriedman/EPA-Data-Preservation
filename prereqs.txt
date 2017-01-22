@@ -1,0 +1,2 @@
+Node >5.2
+Firefox >48
