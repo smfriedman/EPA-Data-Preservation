@@ -23,6 +23,7 @@ driver.get('https://ampd.epa.gov/ampd/');
 //create a query
 driver.findElement(By.id('createId')).click();
 //programs and data sets
+//To do: change auto-gen id's to Xpath 
 driver.findElement(By.id('x-auto-139')).click();
 driver.findElement(By.id('x-auto-183')).click();
 driver.findElement(By.id('x-auto-76')).click(); 
